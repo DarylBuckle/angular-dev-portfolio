@@ -4,7 +4,6 @@ A simple portfolio or cv page aimed at developers, built with Angular (v9.1.9), 
 
 [Example: https://darylbuckle.github.io/angular-dev-portfolio](https://darylbuckle.github.io/angular-dev-portfolio)
 
-
 ## Contents
 
 * [Usage and customisation](#usage-and-customisation)
@@ -21,6 +20,7 @@ A simple portfolio or cv page aimed at developers, built with Angular (v9.1.9), 
 * [Build](#build)
 * [License](#license)
 
+<br/>
 
 ## Usage and customisation
 
@@ -31,6 +31,7 @@ Select "Use this template" or Fork this repository to get started.
 All content besides images and the page title resides in [data.ts](./src/app/data.ts). All you need to do is swap the example data with your own data.
 
 [data.js](./src/app/data.ts) exports a [Profile](./src/app/_Classes/profile.ts) object, which has the following properties.
+
 
 ##### Profile properties
 
@@ -54,6 +55,7 @@ All content besides images and the page title resides in [data.ts](./src/app/dat
 |    about  | string  | false | More information about you. This will show in the About section. Accepts html. |
 
 
+<br/>
 
 ##### Project properties
 
@@ -74,6 +76,7 @@ All content besides images and the page title resides in [data.ts](./src/app/dat
 |    skills | Skill[] | false | A list of skills/technologies relating to the project. The project will then show in the skills section. |
 |    info | string | false | Additional details. Shows on modal screen only. Accepts html. |
 
+<br/>
 
 ##### Role properties
 
@@ -90,6 +93,7 @@ All content besides images and the page title resides in [data.ts](./src/app/dat
 |    projects |  Project[] | false | A list of projects worked on at the company. |
 |    info |  string | false | Additional details. Accepts html. |
 
+<br/>
 
 ##### Qualification properties
 
@@ -107,6 +111,7 @@ All content besides images and the page title resides in [data.ts](./src/app/dat
 |    info |  string | false | Additional details. Shows on modal screen only. Accepts html. |
 
 
+<br/>
 
 ##### Skill properties
 
@@ -116,36 +121,40 @@ All content besides images and the page title resides in [data.ts](./src/app/dat
 |    group |  string | true | What group to show the skill under. If empty string no group header will be shown. |
 |    level |  number | false | A number ranging from 0-100 to determine your skill level. |
 
+<br/>
 
 ### Theme
 
 The template uses Bootstrap so is very easy to alter the colours.
 
-The colour palette can be changed by altering the values in `$theme-colors` in [/src/theme.scss](.src/theme.scss).
-
+The colour palette can be changed by altering the values in `$theme-colors` in [/src/theme.scss](./src/theme.scss).
 
 ### Branding
 
-The "My Portfolio" on the navigation bar is an image which can be replaced in [/src/assets/images/logo.png](.src/assets/images/logo.png). This is rendered in [/src/app/nav-bar/nav-bar.component.html](.src/app/nav-bar/nav-bar.component.html) so the image format can be changed here or the image can be replaced with text.
+The "My Portfolio" on the navigation bar is an image which can be replaced in [/src/assets/images/logo.png](./src/assets/images/logo.png). This is rendered in [/src/app/nav-bar/nav-bar.component.html](./src/app/nav-bar/nav-bar.component.html) so the image format can be changed here or the image can be replaced with text.
 
-The Profile Picture on the header is an image which can be replaced in [/src/assets/images/profile.png](.src/assets/images/profile.png). This is rendered in [/src/app/avatar/avatar.component.html](.src/app/avatar/avatar.component.html) so the image format can be changed here.
+The Profile Picture on the header is an image which can be replaced in [/src/assets/images/profile.png](./src/assets/images/profile.png). This is rendered in [/src/app/avatar/avatar.component.html](./src/app/avatar/avatar.component.html) so the image format can be changed here.
 
-The page title can be altered in [/src/index.html](.src/index.html).
-
+The page title can be altered in [/src/index.html](./src/index.html).
 
 ### Images
 
-Add your own images of your projects or qualifications to the [/src/assets/images/](.src/assets/images/) directory. You can then reference these in data.js using `../assets/images/yourimage.png`.
+Add your own images of your projects or qualifications to the [/src/assets/images/](./src/assets/images/) directory. You can then reference these in data.js using `../assets/images/yourimage.png`.
 
+<br/>
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
+<br/>
+
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
+
+<br/>
 
 ## License
 
