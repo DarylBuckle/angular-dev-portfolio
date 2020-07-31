@@ -26,13 +26,13 @@ ___
 
 ## Usage and customisation
 
-Fork this repository to get started.
+Select "Use this template" or Fork this repository to get started.
 
 ### Data
 
-All content besides images and the page title resides in [data.ts](../src/app/data.ts). All you need to do is swap the example data with your own data.
+All content besides images and the page title resides in [data.ts](./src/app/data.ts). All you need to do is swap the example data with your own data.
 
-[data.js](../src/app/data.ts) exports a [Profile](../src/app/_Classes/profile.ts) object, which has the following properties.
+[data.js](./src/app/data.ts) exports a [Profile](./src/app/_Classes/profile.ts) object, which has the following properties.
 
 ##### Profile properties
 
@@ -123,21 +123,21 @@ All content besides images and the page title resides in [data.ts](../src/app/da
 
 The template uses Bootstrap so is very easy to alter the colours.
 
-The colour palette can be changed by altering the values in `$theme-colors` in [/src/theme.scss](..src/theme.scss).
+The colour palette can be changed by altering the values in `$theme-colors` in [/src/theme.scss](.src/theme.scss).
 
 
 ### Branding
 
-The "My Portfolio" on the navigation bar is an image which can be replaced in [/src/assets/images/logo.png](..src/assets/images/logo.png). This is rendered in [/src/app/nav-bar/nav-bar.component.html](..src/app/nav-bar/nav-bar.component.html) so the image format can be changed here or the image can be replaced with text.
+The "My Portfolio" on the navigation bar is an image which can be replaced in [/src/assets/images/logo.png](.src/assets/images/logo.png). This is rendered in [/src/app/nav-bar/nav-bar.component.html](.src/app/nav-bar/nav-bar.component.html) so the image format can be changed here or the image can be replaced with text.
 
-The Profile Picture on the header is an image which can be replaced in [/src/assets/images/profile.png](..src/assets/images/profile.png). This is rendered in [/src/app/avatar/avatar.component.html](..src/app/avatar/avatar.component.html) so the image format can be changed here.
+The Profile Picture on the header is an image which can be replaced in [/src/assets/images/profile.png](.src/assets/images/profile.png). This is rendered in [/src/app/avatar/avatar.component.html](.src/app/avatar/avatar.component.html) so the image format can be changed here.
 
-The page title can be altered in [/src/index.html](..src/index.html).
+The page title can be altered in [/src/index.html](.src/index.html).
 
 
 ### Images
 
-Add your own images of your projects or qualifications to the [/src/assets/images/](..src/assets/images/) directory. You can then reference these in data.js using `../assets/images/yourimage.png`.
+Add your own images of your projects or qualifications to the [/src/assets/images/](.src/assets/images/) directory. You can then reference these in data.js using `../assets/images/yourimage.png`.
 
 ---
 
