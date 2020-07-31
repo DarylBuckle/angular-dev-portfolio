@@ -4,7 +4,6 @@ A simple portfolio or cv page aimed at developers, built with Angular (v9.1.9), 
 
 [Example: https://darylbuckle.github.io/angular-dev-portfolio](https://darylbuckle.github.io/angular-dev-portfolio)
 
----
 
 ## Contents
 
@@ -22,7 +21,6 @@ A simple portfolio or cv page aimed at developers, built with Angular (v9.1.9), 
 * [Build](#build)
 * [License](#license)
 
-___
 
 ## Usage and customisation
 
@@ -139,7 +137,6 @@ The page title can be altered in [/src/index.html](.src/index.html).
 
 Add your own images of your projects or qualifications to the [/src/assets/images/](.src/assets/images/) directory. You can then reference these in data.js using `../assets/images/yourimage.png`.
 
----
 
 ## Development server
 
@@ -149,7 +146,6 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
----
 
 ## License
 
