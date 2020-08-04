@@ -4,6 +4,8 @@ A simple portfolio or cv page aimed at developers, built with Angular (v9.1.9), 
 
 [Example: https://darylbuckle.github.io/angular-dev-portfolio](https://darylbuckle.github.io/angular-dev-portfolio)
 
+<img width="400" alt="angular-dev-portfolio-1" src="https://user-images.githubusercontent.com/15156674/89340514-c6af3b80-d697-11ea-92b2-b0dc7b91e5b6.png">
+
 ## Contents
 
 * [Usage and customisation](#usage-and-customisation)
