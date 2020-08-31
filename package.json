@@ -7,7 +7,9 @@
     "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "publish": "ng deploy",
+    "publish-subdir": "ng deploy --base-href=/angular-dev-portfolio/"
   },
   "private": true,
   "dependencies": {
