@@ -141,7 +141,7 @@ The page title can be altered in [/src/index.html](./src/index.html).
 
 ### Images
 
-Add your own images of your projects or qualifications to the [/src/assets/images/](./src/assets/images/) directory. You can then reference these in data.js using `../assets/images/yourimage.png`.
+Add your own images of your projects or qualifications to the [/src/assets/images/](./src/assets/images/) directory. You can then reference these in data.js using `assets/images/yourimage.png`.
 
 <br/>
 
